@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOO | HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b4f015aa1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <h1 class="sidebarTitle"><i class="fa-solid fa-feather fa-lg" style="color: #b7d197"></i> ZOO</h1>
+            <ul class="menu">
+                <a href=""><li><h2>Animals</h2><p>Discover our<br>animals</p></li></a>
+                <a href=""><li><h2>Activities</h2><p>Come have fun<br>with us</p></li></a>
+                <a href=""><li><h2>Map</h2><p>Zoo's map</p></li></a>
+                <a href=""><li><h2>About us</h2><p>Meet our history</p></li></a>
+                <a href=""><li><h2>Contact</h2><p>Contact us</p></li></a>
+                <a href=""><li><h2>FAQ</h2><p>Common asks</p></li></a>
+            </ul>
+            
+            <div class="iconContainer">
+                <a href=""><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a href=""><i class="fa-brands fa-youtube fa-2xl"></i></a>
+                <div class="burgerIcon">
+                    <i class="fa-solid fa-bars fa-2xl" onclick="showMenuList ()"></i>
+                </div>
+            </div>
+            
+        </aside>
+
+        <main>
+            <div class="intro">
+                <span class="topLeft">
+                    <p>
+                        There is no such thing as bad weather,
+                        <br>at the ZOO if it rains
+                        <br>ticket prices are half price
+                    </p>
+                </span>
+                <span class="topRight">
+                    <h1>+1800</h1>
+                    <p>animals</p>
+                    <br>
+                    <br>
+                    <h1>+150</h1>
+                    <p>species</p>
+                    <br>
+                    <br>
+                    <h1>+20</h1>
+                    <p>attractions</p>
+                </span>
+                <span class="bottomLeft">
+                    <h1>Wild vacation,<br>Summer Camp is at the ZOO</h1>
+                    <br>
+                    <br>
+                    <button>Buy Ticket</button>
+                </span>
+                <span class="bottomRight">
+                    <p>St. Street, 888 - City/BR <i class="fa-solid fa-location-dot fa-xl"></i></p>
+                </span>  
+            </div>
+
+            <div class="animalsSlide">
+                <div class="carouselContainer">
+                    <div class="carousel" id="carousel1">
+                        <div div class="carouselCard">
+                            <img src="img/animals-1.jpg" draggable="false">
+                            <p>Discover the extraordinary iguana, a reptile with green scales and tranquil behavior.</p>
+                        </div>
+                        <div class="carouselCard">
+                            <img src="img/animals-2.jpg" draggable="false">
+                            <p>Explore the majestic presence of the lion, the king of the savannah, with its powerful mane.</p>
+                        </div>
+                        <div class="carouselCard">
+                            <img src="img/animals-3.jpg" draggable="false">
+                            <p>Be enchanted by the elegance of the flamingo, a graceful bird with a unique vibrant pink plumage.</p>
+                        </div>
+                        <div class="carouselCard">
+                            <img src="img/animals-4.jpg" draggable="false">
+                            <p>Marvel at the grandeur of the rhinoceros, with its distinctive horn and robust skin.</p>
+                        </div>
+                        <div class="carouselCard">
+                            <img src="img/animals-5.jpg" draggable="false">
+                            <p>Be enchanted by the exuberance of the golden lion tamarin, a small primate with golden fur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="animalsText">
+                    <h1>Drag to explore our animals.</h1>
+                    <p>
+                        In heart of our zoo, navigate through vast habitats that
+                        <br>house a fascinating diversity of creatures, from majestic
+                        <br>lions to small insects that play essential roles in our
+                        <br>ecosystems.
+                    </p>
+                </div>
+            </div>
+
+            <div class="activitiesSlide">
+                <div class="activitiesText">
+                    <h1>Swipe to discover our activities.</h1>
+                    <p>
+                        Here, we offer an exciting variety of activities
+                        <br>designed to engage visitors of all ages,
+                        <br>providing a unique opportunity to connect even
+                        <br>further with the fascinating world of wildlife.
+                    </p>
+                </div>
+                <div class="carouselContainer">
+                    <div class="carousel" id="carousel2" draggable="false">
+                        <div div class="carouselCard">
+                            <img src="img/activities-1.jpg" draggable="false">
+                            <p>Enjoy the adrenaline of climbing, an exciting experience with unique views!</p>
+                        </div>
+                        <div class="carouselCard">
+                            <img src="img/activities-2.jpg" draggable="false">
+                            <p> Savor exceptional cuisine while enjoying a cozy atmosphere.</p>
+                        </div>
+                        <div class="carouselCard">
+                            <img src="img/activities-3.jpg" draggable="false">
+                            <p>Have fun in the kid's field, a safe and lively environment where fun is guaranteed.</p>
+                        </div>
+                        <div class="carouselCard">
+                            <img src="img/activities-4.jpg" draggable="false">
+                            <p>Explore authentic habitats in an environment dedicated to the respect of wildlife.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prices">
+                <div class="priceImg1">
+                    <img src="img/giraffe.png">
+                </div>
+                <div class="values">
+                    <h2>Ticket Bundles</h2>
+                    <br>
+                    <ul>
+                        <li>
+                            <h2>DUO</h2>
+                            <p>2 TICKETS</p>
+                            <h3>Only $35.99</h3>
+                        </li>
+                        <li>
+                            <h2>FAMILY</h2>
+                            <p>4 TICKETS</p>
+                            <h3>Only $59.99</h3>
+                        </li>
+                        <li>
+                            <h2>GROUP</h2>
+                            <p>10 TICKETS</p>
+                            <h3>Only $99.99</h3>
+                        </li>
+                    </ul>
+                    <br> <br>
+                    <button>Buy Ticket</button>
+                </div>
+                <div class="priceImg2">
+                    <img src="img/gorilla.png">
+                </div>
+            </div>
+
+            <div class="footerSub">
+                <div class="form">
+                    <h2>
+                        Stay updated on
+                        <br>promotions and news!
+                    </h2>
+                    <span class="subscribeInput">
+                        <input type="email" placeholder="example@email.com">
+                        <button>Subscribe</button>
+                    </span>
+                </div>
+                <div class="footer">
+                    <ul>
+                        <a href=""><li>Animals</li></a>
+                        <a href=""><li>Activities</li></a>
+                        <a href=""><li>Map</li></a>
+                        <a href=""><li>About us</li></a>
+                        <a href=""><li>Contact</li></a>
+                        <a href=""><li>FAQ</li></a>
+                    </ul>
+                    <ul>
+                        <li>City - Brazil </li>
+                        <li>St. Street - 888</li>
+                        <li>XXXXX-XXX</li>
+                    </ul>
+                    <ul>
+                        <li>+XX (XX) XXXX-XXXX</li>
+                        <li>contact@email.com</li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-square-facebook fa-xl" style="color: #cfffd8;"></i></a> 
+                            <a href=""><i class="fa-brands fa-instagram fa-xl" style="color: #cfffd8;"></i></a> 
+                            <a href=""><i class="fa-brands fa-youtube fa-xl" style="color: #cfffd8;"></i></a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright © - 2023 - By <a href="https://github.com/WindFox8">Rafael Correr <i class="fa-brands fa-github" ></i></a></p>
+        </footer>
+    </div> 
+    <script src="script.js"></script>  
+</body>
+</html>
